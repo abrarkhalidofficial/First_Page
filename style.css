@@ -1,0 +1,173 @@
+*{
+    
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    
+}
+.container_main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./img/backgroud.jfif) ;
+    background-size: cover;
+    background-position: center;
+    
+}
+.asim{
+    color: #89f3e1;
+}
+.loran{
+    color: white;
+
+}
+.BUTTON{
+    border: 1px solid #463D3B;
+    background-color: #463D3B;
+    color: #ffffff;
+    width: 130px;
+    text-decoration: none;
+     font-weight: bold;
+     font-size: 17px;
+     padding: 5px;
+     border-radius: 5px;
+     cursor: pointer;
+     margin: 10px 40px;
+
+}
+.BUTTON:hover{
+    border: 1px solid #463D3B;
+    background-color:  transparent;
+
+}
+.top_nav_bar{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2em;
+}
+.logo{
+    width: 60px;
+    cursor: pointer;
+
+
+}
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 100%;
+    
+    
+
+}
+.total{
+    padding: 1em 3em;
+}
+.total a{
+    
+    color: #ffffff;
+    text-decoration: none;
+     font-weight: bold;
+     font-size: 17px;
+     border: 1px solid #463D3B;
+     padding: 5px;
+     border-radius: 5px;
+    
+     
+    
+
+}
+.total a:hover{
+    
+    border: 1px solid #463D3B;
+    background-color: #463D3B;
+
+}
+.main_div{
+    display: flex;
+    width: 100%;
+    margin: 50px;
+}
+
+.left_container{
+   width: 50%;
+}
+
+.right_text{
+    width: 50%;
+}
+.right_container{
+    margin-top: -20px;
+    width: 50%;
+    width: 30%;
+    margin-left: 70px;
+}
+  
+.img_manige{
+
+
+  
+    width: 200px;
+    height: 210px;
+    padding: 8px;
+    border-radius: 23px;
+    transition: transform 0.5s;
+    
+
+}
+.img_manige:hover{
+    transform: translatey(-10px);
+}
+.backgroup_2{
+
+    
+    margin-top: 140px;
+    width: 50%;
+    margin-left: 100px;
+    
+}
+.let_start{
+   font-size: 35px;
+
+}
+.left{
+    border: 1px solid rgba(228, 213, 213, 0.904);
+     width: 100vh;
+     height: 100vh;
+}
+.input_row{
+    display: flex;
+    justify-content: space-between;
+ margin-bottom: 20px;
+ 
+}
+input{
+
+    border: none;
+    border-bottom: 1px solid #463D3B;
+    border-radius: none;
+    
+}
+.pading{
+    padding: 5px;
+}
+.box{
+    width: 50%;
+    height: 200px;
+    border: none;
+    border: 1px solid #463d3ba8;
+    border-color: 1px solid #463d3ba8;
+
+
+}
+.as{
+    margin-bottom: 400px;
+
+}
